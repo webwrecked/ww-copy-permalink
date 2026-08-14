@@ -1,0 +1,43 @@
+{
+    "name": "sac2811/ww-copy-permalink",
+    "description": "Adds a Copy Permalink action to posts, pages and custom post types in the WordPress admin.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "permalink",
+        "copy",
+        "clipboard"
+    ],
+    "authors": [
+        {
+            "name": "DevCraft",
+            "homepage": "https://sac2811.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WWCopyPermalink\\": "src/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs",
+        "fix": "phpcbf"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,94 @@
+/**
+ * ============================================================
+ * WW Copy Permalink
+ * Admin Styles
+ * ============================================================
+ */
+
+
+/*
+|--------------------------------------------------------------------------
+| Copy Permalink Action
+|--------------------------------------------------------------------------
+*/
+
+.wwcp-copy-permalink {
+	text-decoration: none;
+}
+
+
+.wwcp-copy-permalink:hover,
+.wwcp-copy-permalink:focus {
+	color: #135e96;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Notification Toast
+|--------------------------------------------------------------------------
+*/
+
+#wwcp-notice {
+	position: fixed;
+	right: 24px;
+	bottom: 24px;
+
+	padding: 12px 18px;
+
+	border-radius: 4px;
+
+	font-size: 13px;
+	font-weight: 600;
+
+	color: #ffffff;
+
+	background: #00a32a;
+
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+	z-index: 999999;
+
+	opacity: 0;
+
+	transform: translateY(15px);
+
+	transition:
+		opacity 0.25s ease,
+		transform 0.25s ease;
+}
+
+
+#wwcp-notice.is-visible {
+
+	opacity: 1;
+
+	transform: translateY(0);
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Error State
+|--------------------------------------------------------------------------
+*/
+
+#wwcp-notice.is-error {
+	background: #d63638;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Dark Admin Color Scheme Compatibility
+|--------------------------------------------------------------------------
+*/
+
+@media (prefers-color-scheme: dark) {
+
+	.wwcp-copy-permalink:hover,
+	.wwcp-copy-permalink:focus {
+		color: #72aee6;
+	}
+
+}
