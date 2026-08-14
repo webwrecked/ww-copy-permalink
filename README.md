@@ -1,5 +1,5 @@
 === WW Copy Permalink ===
-Contributors: sac2811
+Contributors: WebWrecked
 Tags: permalink, copy link, admin utility, post tools, productivity
 Requires at least: 6.0
 Tested up to: 7.0

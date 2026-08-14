@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       WW Copy Permalink
- * Plugin URI:        https://github.com/sac2811/ww-copy-permalink
+ * Plugin URI:        https://github.com/webwrecked/ww-copy-permalink
  * Description:       Adds a Copy Permalink action to posts, pages, and public custom post types in the WordPress admin.
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
- * Author:            DevCraft
- * Author URI:        https://sac2811.github.io
+ * Author:            WebWrecked
+ * Author URI:        https://webwrecked.github.io/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       ww-copy-permalink
